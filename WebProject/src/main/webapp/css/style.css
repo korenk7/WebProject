@@ -7,6 +7,7 @@
 }
 
 .container {
+	position: relative;
 	width: 1140px;
 	margin: 0 auto;
 }
@@ -116,8 +117,89 @@ h2.title {
 .promo .more .more_img {
 	width: 29.99px;
 	height: 18.99px;
-
 	display: block;
 	margin: 0 auto;
 	margin-top: 5px;
+}
+
+.waiting {
+	min-height: 607px;
+	padding: 85px 0 75px 0;
+	background: #EFEFEF;
+}
+
+.waiting_header {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	/* or 100% */
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.waiting_divider {
+	width: 220px;
+	height: 7px;
+	background: #F9BF3B;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+h3 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	text-align: center;
+	color: #4A4A4A;
+	margin-top: 18px;
+}
+
+.waiting_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.waiting_wrapper .waiting_item {
+	text-align: center;
+	align-items: center;
+	width: 340px;
+	margin-top: 20px;
+}
+
+.waiting_wrapper .waiting_description {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	color: #4A4A4A;
+	margin-top: 26px;
+}
+
+.waiting_img {
+	width: 100%;
+}
+
+.optimization {
+	min-height: 607px;
+	padding: 85px 0 75px 0;
+	background: #ffffff;
+}
+
+.optimization .woman_img {
+	position: absolute;
+	left: -240px;
+	top: -54px;
+
+}
+
+.optimization .optimization_header{
+	z-index: 1;
+	
 }
